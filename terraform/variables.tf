@@ -20,3 +20,8 @@ variable "environment" {
   description = "test-docker-ce Environment"
   default = "test-docker-ce"
 }
+
+variable "test-docker-ce_subnet_cidr" {
+  description = "CIDR for the Docker CE Test Public Subnet"
+  default = "10.0.5.0/24"
+}

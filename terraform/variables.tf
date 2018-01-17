@@ -37,3 +37,7 @@ variable "aws_region" {
   description = "Default AWS Region"
   default = "us-east-1"
 }
+
+variable "connection_timeout" {
+  default = "120s"
+}
